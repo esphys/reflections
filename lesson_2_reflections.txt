@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 	it creates the hidden folder where changes to files are stored. This is necessary to create the infrastructure required by git's other commands to function.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area only contains information of some files, whereas the wd and repo contain images of the entire project. This lets you only commit the changes you want, if perhaps you were working on other files as well, you could only commit the files relevant to a commit.
