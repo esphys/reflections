@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+	it creates the hidden folder where changes to files are stored. This is necessary to create the infrastructure required by git's other commands to function.

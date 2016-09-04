@@ -1,0 +1,20 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	Only viewing the differences allows you to ignore everything not relevant to the changes, and because it displays both, you can easily compare old/new code
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	No longer being as concerned with getting rid of sections of code, or how you may have done something before, as you can just look to reference the older code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	The saves are (ideally) broken up into sections that make sense in the context of the code. You wouldn't want saves to happen in the middle of a partially functional method.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	Repositories of code are cohesive unlike a directory full of unrelated files. All the files are effectively one "program", so a change could span multiple files, such as adding an argument to a method in one file, and calling the method in another
+
+How can you use the commands git log and git diff to view the history of files?
+	You use git log to view the various commits to a repo, when you have found the two that you want to compare, you copy the IDs as the arguments for a git diff operation and it will display the changes made to the initial file.
+
+How might using version control make you more confident to make changes that could break something?
+	You can always go back to find out where/how something you have changed was broken. If you break your code you can always go back to where it wasn't broken.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	Well, finishing this course would be good. Planning to try and use git and sublime to go through some other coding courses/books to get used to them while improving my skills.
