@@ -6,3 +6,6 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Describe the difference between forks, clones, and branches. When would you use one instead of the other?
 	A fork copies somebody else's github repo into a repo of your own. Good for when you want to make changes of your own to somebody else's project, and keep it separate from the original project. Clones copy a repo from github to your local, good for when you need to actually work on something at all, as modifying code through the github web interface would be a nightmare. Branches are when you want to have 2 versions of the same project being committed in parallel to one another, potentially for adding a feature that you don't want affecting the master branch until after it's complete.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	It allows you to work offline and still be able to see the changes that may have been made more recently than the last time you pulled.
